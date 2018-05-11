@@ -41,7 +41,7 @@ public class GamePanel extends JPanel implements KeyListener {
 		 super();
 		//C4 = new Key("C", new Sound(""), false);
 		//CSharp = new Key("C#", new Sound(""), true);
-		 piano = new Piano();
+		 pno = new Pio();
 		 sound = new Sound("");
 		 
 		  setBackground(Color.WHITE);
