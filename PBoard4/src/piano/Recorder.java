@@ -5,7 +5,7 @@ import javax.swing.*;
 import java.awt.Graphics;
 import java.awt.Point;
 import java.util.ArrayList;
-
+// hi it's rithika
 /**
  * Represents the recorder class that records the sounds that the Keys play 
  * @author Amanda 
@@ -22,6 +22,11 @@ public class Recorder {
 	public Recorder(int beats) {
 		BEATS_PER_MEASURE = beats;
 
+	}
+	
+	public void record(Key k) {
+		keysRecorded.add(k);
+		
 	}
 	
 	public void record(Key k, int measNum, int beat) {
